@@ -1,0 +1,17 @@
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Application.deps.json
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Application.dll
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Application.pdb
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Domain.dll
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Infra.dll
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Domain.pdb
+C:\Desenv\GliceControl\Application\bin\Debug\net7.0\GliceControl.Infra.pdb
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.csproj.AssemblyReference.cache
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.AssemblyInfoInputs.cache
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.AssemblyInfo.cs
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.csproj.CoreCompileInputs.cache
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceCon.96771750.Up2Date
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.dll
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\refint\GliceControl.Application.dll
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\GliceControl.Application.pdb
+C:\Desenv\GliceControl\Application\obj\Debug\net7.0\ref\GliceControl.Application.dll

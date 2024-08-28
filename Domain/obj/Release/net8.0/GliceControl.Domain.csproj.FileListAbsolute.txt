@@ -1,0 +1,11 @@
+C:\Desenv\GliceControl\Domain\bin\Release\net8.0\GliceControl.Domain.deps.json
+C:\Desenv\GliceControl\Domain\bin\Release\net8.0\GliceControl.Domain.dll
+C:\Desenv\GliceControl\Domain\bin\Release\net8.0\GliceControl.Domain.pdb
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\GliceControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\GliceControl.Domain.AssemblyInfoInputs.cache
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\GliceControl.Domain.AssemblyInfo.cs
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\GliceControl.Domain.csproj.CoreCompileInputs.cache
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\GliceControl.Domain.dll
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\refint\GliceControl.Domain.dll
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\GliceControl.Domain.pdb
+C:\Desenv\GliceControl\Domain\obj\Release\net8.0\ref\GliceControl.Domain.dll

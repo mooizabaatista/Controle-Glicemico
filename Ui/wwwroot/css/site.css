@@ -1,0 +1,113 @@
+.dt-length-0 {
+  display: block !important;
+}
+
+.active {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+}
+
+.nav-tabs {
+  /* background-color: #000 !important; */
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  width: 100% !important;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-item a {
+  width: 100% !important;
+}
+
+table.dataTable tbody td {
+  background-color: rgba(250, 250, 250, 0.705) !important;
+  color: #5c5c5c;
+  font-weight: 800;
+  text-align: center !important;
+  border: solid rgba(52, 58, 64, 0.315);
+}
+
+table.dataTable thead th {
+  text-align: center !important;
+  background-color: rgba(236, 236, 236, 0.89) !important;
+  color: #5c5c5c;
+  font-weight: 800;
+  border: solid thin rgba(52, 58, 64, 0.315);
+}
+
+html {
+  font-size: 14px;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important; /* Remove também o efeito de sombra que aparece com o contorno */
+}
+
+body {
+  background-color: rgb(231, 223, 223) !important;
+}
+
+@media (max-width: 768px) {
+  .nav-tabs {
+    font-size: 9.5px !important;
+  }
+
+  .dt-length {
+    margin-right: 70px;
+  }
+
+  .dt-search {
+    margin-right: 50px;
+  }
+
+  table.dataTable thead th {
+    font-size: 13px !important;
+  }
+
+  .pagination {
+    margin: 10px;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .pagination li button {
+    font-size: 11px !important;
+  }
+
+  table.dataTable tbody tr td {
+    font-size: 13px !important;
+  }
+
+  #dt-length-0 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

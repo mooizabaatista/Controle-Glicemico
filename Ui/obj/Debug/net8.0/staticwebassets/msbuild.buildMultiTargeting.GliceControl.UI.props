@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GliceControl.UI.props" />
+</Project>

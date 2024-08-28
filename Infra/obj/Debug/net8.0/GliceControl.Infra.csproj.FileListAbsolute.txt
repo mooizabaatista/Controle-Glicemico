@@ -1,0 +1,17 @@
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.csproj.AssemblyReference.cache
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.AssemblyInfoInputs.cache
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.AssemblyInfo.cs
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.csproj.CoreCompileInputs.cache
+C:\Desenv\GliceControl\Infra\bin\Debug\net8.0\GliceControl.Infra.deps.json
+C:\Desenv\GliceControl\Infra\bin\Debug\net8.0\GliceControl.Infra.runtimeconfig.json
+C:\Desenv\GliceControl\Infra\bin\Debug\net8.0\GliceControl.Infra.dll
+C:\Desenv\GliceControl\Infra\bin\Debug\net8.0\GliceControl.Infra.pdb
+C:\Desenv\GliceControl\Infra\bin\Debug\net8.0\GliceControl.Domain.dll
+C:\Desenv\GliceControl\Infra\bin\Debug\net8.0\GliceControl.Domain.pdb
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceCon.2B38CCC8.Up2Date
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.dll
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\refint\GliceControl.Infra.dll
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.pdb
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\GliceControl.Infra.genruntimeconfig.cache
+C:\Desenv\GliceControl\Infra\obj\Debug\net8.0\ref\GliceControl.Infra.dll

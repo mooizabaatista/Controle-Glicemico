@@ -1,0 +1,3 @@
+C:\Desenv\GliceControl\publish_output\GliceControl.Domain.dll
+C:\Desenv\GliceControl\publish_output\GliceControl.Domain.deps.json
+C:\Desenv\GliceControl\publish_output\GliceControl.Domain.pdb

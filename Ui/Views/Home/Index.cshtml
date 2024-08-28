@@ -1,0 +1,100 @@
+﻿@model Ui.Models.ControleGlicemicoVM;
+
+<!-- BOTÃO MODAL CADASTRO -->
+<div class="row mb-3">
+    <div class="col-12">
+        <span class="shadow-lg btn btn-primary btn-sm" id="btnCadastrar" onclick="LimparCampos()">Cadastrar <i
+                class="fa-solid fa-plus ms-2"></i></span>
+    </div>
+</div>
+
+<!-- TABELA -->
+<div class="row">
+    <div class="col-12">
+        <table id="tbControle" class="table small table-sm table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Período</th>
+                    <th>Nível</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ControleGlicemicoList)
+                {
+                    <tr>
+                        <td>@item.Data.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Periodo</td>
+                        <td>@item.ValorGlicemico</td>
+                        <td style="width: 5%">
+                            <div class="d-flex justify-content-center gap-3">
+                                <i class="btn btn-sm fa-solid fa-pen-to-square btn-dark" style="font-size: 13px;" onclick="
+                                    Editar(@item.Id)"></i>
+                                <i class="btn fa-solid btn-sm fa-trash btn-danger" style="font-size: 13px;"
+                                    onclick="Deletar(@item.Id)"></i>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="cadastroEditModal" tabindex="-1" aria-labelledby="cadastroEditModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-between">
+                &nbsp;
+                <button type="button" class="btn-close mx-2 my-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <h5 id="cadastroEditModalLabel" class="text-center"></h5>
+
+            <div class="modal-body">
+                <form asp-action="CreateOrUpdate">
+                    <input type="hidden" id="id" asp-for="@Model.ControleGlicemicoDto.Id">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label>Data</label>
+                            <input type="date" id="data" class="form-control"
+                                asp-for="@Model.ControleGlicemicoDto.Data">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label>Período</label>
+                            <select id="periodo" class="form-control" asp-for="@Model.ControleGlicemicoDto.Periodo">
+                                <option value="">Selecione...</option>
+                                <option value="0">Manhã</option>
+                                <option value="1">Tarde</option>
+                                <option value="2">Noite</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label>Valor Glicemico</label>
+                            <input type="number" id="valorGlicemico" class="form-control" min="1" max="999"
+                                asp-for="@Model.ControleGlicemicoDto.ValorGlicemico">
+                        </div>
+                    </div>
+
+                    <div class="row text-center mt-5">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary btn-sm" value="Salvar">
+                                <button type="button" class="btn btn-danger btn-sm"
+                                    data-bs-dismiss="modal">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/home.js"></script>
+}
