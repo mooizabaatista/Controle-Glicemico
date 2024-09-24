@@ -3412,19 +3412,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\p-mbsilva\\.nuget\\packages\\": {}
+    "C:\\Users\\batis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenv\\GliceControl\\IoC\\GliceControl.IoC.csproj",
+      "projectUniqueName": "D:\\teste_git\\Controle-Glicemico\\IoC\\GliceControl.IoC.csproj",
       "projectName": "GliceControl.IoC",
-      "projectPath": "C:\\Desenv\\GliceControl\\IoC\\GliceControl.IoC.csproj",
-      "packagesPath": "C:\\Users\\p-mbsilva\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenv\\GliceControl\\IoC\\obj\\",
+      "projectPath": "D:\\teste_git\\Controle-Glicemico\\IoC\\GliceControl.IoC.csproj",
+      "packagesPath": "C:\\Users\\batis\\.nuget\\packages\\",
+      "outputPath": "D:\\teste_git\\Controle-Glicemico\\IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\p-mbsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\batis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3438,11 +3438,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Desenv\\GliceControl\\Application\\GliceControl.Application.csproj": {
-              "projectPath": "C:\\Desenv\\GliceControl\\Application\\GliceControl.Application.csproj"
+            "D:\\teste_git\\Controle-Glicemico\\Application\\GliceControl.Application.csproj": {
+              "projectPath": "D:\\teste_git\\Controle-Glicemico\\Application\\GliceControl.Application.csproj"
             },
-            "C:\\Desenv\\GliceControl\\Infra\\GliceControl.Infra.csproj": {
-              "projectPath": "C:\\Desenv\\GliceControl\\Infra\\GliceControl.Infra.csproj"
+            "D:\\teste_git\\Controle-Glicemico\\Infra\\GliceControl.Infra.csproj": {
+              "projectPath": "D:\\teste_git\\Controle-Glicemico\\Infra\\GliceControl.Infra.csproj"
             }
           }
         }
@@ -3487,7 +3487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }

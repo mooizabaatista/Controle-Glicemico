@@ -6,6 +6,7 @@ public class ControleGlicemico
 {
     public long Id { get; set; }
     public DateTime Data { get; set; }
+    public string Nome { get; set; } = "";
     public int ValorGlicemico { get; set; }
     public Periodo Periodo { get; set; }
 }
